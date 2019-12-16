@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Angular Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+    "C:\\Angular Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "c:\\Angular Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+    "C:\\Angular Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Angular Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "C:\\Angular Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "c:\\Angular Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectPath": "C:\\Angular Projects\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\Wilber.Palomino\\.nuget\\packages\\",
-        "outputPath": "c:\\Angular Projects\\DatingApp\\DatingApp.API\\obj\\",
+        "outputPath": "C:\\Angular Projects\\DatingApp\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
